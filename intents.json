@@ -1,0 +1,236 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting. what do you want to savor today",
+        "Hi there, what can I do for you? what do you want to order today",
+        "Hi there, how can I help?"
+      ]
+    },
+
+    {
+      "tag": "vegetarian",
+      "patterns": [
+        "I want vegatarian food",
+        "I like vegatarian food",
+        "Do you have vegetarian food"
+      ],
+      "responses": [
+        "Yes, we have Vegetarian Pizza (3$), Vegetarian Kebap(2$) and Couscous without meat(5$). any preferences ?",
+        "Sure, we have Vegetarian Pizza (3$), Vegetarian Kebap(2$) and Couscous without meat(5$). any preferences?"        
+      ]
+    },
+
+    {
+      "tag": "vegan",
+      "patterns": [
+        "I want vegan food",
+        "I like Vegan food",
+        "Do you have vegan food"
+      ],
+      "responses": [
+        "Yes, we have Vegan Pizza (3$), Vegan Kebap(2$) and Couscous with wock(5$). any preferences ?",
+        "Sure, we have vegan Pizza (3$), vegan Kebap(2$) and Couscous with wock(5$). any preferences?"        
+      ]
+    },
+
+    {
+      "tag": "meat",
+      "patterns": [
+        "I want meat",
+        "I like meat",
+        "Do you have meat"
+      ],
+      "responses": [
+        "Yes, we have beef for 3$.",
+        "Certainly we have chicken for 3$"        
+      ]
+    },
+
+    {
+      "tag": "beef",
+      "patterns": [
+        "I want Beef",
+        "I like beef",
+        "Do you have Beef"
+      ],
+      "responses": [
+        "Yes, we have beef for 2.5$.",
+        "Certainly, we have Beef for 2.5$"        
+      ]
+    },
+
+    {
+      "tag": "Chicken",
+      "patterns": [
+        "I want Chicken",
+        "I like Chicken",
+        "Do you have Chicken",
+        "Do you have chicken"
+      ],
+      "responses": [
+        "Yes, we have Chicken for 4$.",
+        "Certainly, we have Chicken for 4$"        
+      ]
+    },
+    {
+      "tag": "Mouton",
+      "patterns": [
+        "I want Mouton",
+        "I like Mouton",
+        "Do you have Mouton",
+        "Do you have mouton"
+      ],
+      "responses": [
+        "Yes, we have Mouton for 3$.",
+        "Certainly, we have Mouton for 3$"        
+      ]
+    },
+
+    {
+      "tag": "Lamb",
+      "patterns": [
+        "Do you have lamb",
+        "I like Lamb",
+        "I want Lamb",
+        "Do you have lamb"
+      ],
+      "responses": [
+        "Yes, we have lamb for 6$.",
+        "Certainly, we have Lamb for 6$"        
+      ]
+    },
+
+    {
+      "tag": "couscous",
+      "patterns": [
+        "Do you have couscous",
+        "I like couscous",
+        "I want couscous",
+        "Do you have couscous"
+      ],
+      "responses": [
+        "Yes, we have couscous for 6$.",
+        "Certainly, we have couscous for 6$"        
+      ]
+    },
+
+    {
+      "tag": "Pizza",
+      "patterns": [
+        "Do you have Pizza",
+        "I like pizza",
+        "I want Pizza",
+        "Do you have Pizza"
+      ],
+      "responses": [
+        "Yes, we have Pizza for 6$.",
+        "Certainly, we have Pizza for 6$"        
+      ]
+    },
+
+    {
+      "tag": "Kebap",
+      "patterns": [
+        "Do you have Kebap",
+        "I like Kebap",
+        "I want Kebap",
+        "Do you have kebap"
+      ],
+      "responses": [
+        "Yes, we have Kebap for 6$.",
+        "Certainly, we have Kebap for 6$"        
+      ]
+    },
+    {
+      "tag": "Tacos",
+      "patterns": [
+        "Do you have Tacos",
+        "I like Tacos",
+        "I want Tacos",
+        "Do you have tacos"
+      ],
+      "responses": [
+        "Yes, we have Tacos for 6$.",
+        "Certainly, we have Tacos for 6$"        
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What do you have?"
+      ],
+      "responses": [
+        "We sell, Moroccan Tajine, Moroccan Couscous, Pastilla, Italian Pizza, Tacos, Kebap, Vegetarian Kebap, and many more. any preferences?",
+        "We have food from Moroccan cuisine, such as Couscous, Tajine, and Pastilla, Italian cuisine like Pizza and Pasta, as well as Mexican, Turkish, and French cuisine. any preferences?",
+        "Savor the flavors of our menu, Moroccan Tajine, Moroccan Couscous, Pastilla, Italian Pizza, Tacos, Kebap, Vegetarian Kebap, and a variety of other choices. any preferences?"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "How can I pay"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
